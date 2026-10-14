@@ -4,21 +4,21 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact | Sora Tobu Studio</title>
-<meta name="description" content="Questions about our yoga classes, cooking classes, or corporate programs? Feel free to reach out.">
+<meta name="description" content="Questions about our yoga classes, cooking classes, or corporate programmes? Feel free to reach out.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;800&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;800&amp;family=Noto+Sans+JP:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../styles.css">
-</head>
+<link rel="canonical" href="https://soratobustudio.github.io/home/en/contact.html"><link rel="alternate" hreflang="ja" href="https://soratobustudio.github.io/home/contact.html"><link rel="alternate" hreflang="en" href="https://soratobustudio.github.io/home/en/contact.html"><meta property="og:type" content="website"><meta property="og:title" content="Contact | Sora Tobu Studio"><meta property="og:description" content="Questions about our yoga classes, cooking classes, or corporate programmes? Feel free to reach out."><meta property="og:url" content="https://soratobustudio.github.io/home/en/contact.html"><meta property="og:site_name" content="Sora Tobu Studio"><meta property="og:locale" content="en_GB"><meta property="og:image" content="https://soratobustudio.github.io/home/images/hero-fuji.webp"><meta property="og:image:alt" content="Mount Fuji from Koshu City"><meta name="twitter:card" content="summary_large_image"></head>
 <body>
 
-<header>
+<a class="skip-link" href="#main-content">Skip to content</a><header>
   <div class="wrap">
     <a class="logo" href="index.html">Sora Tobu Studio</a>
     <div class="nav-right">
       <nav aria-label="Main navigation">
         <ul id="navMenu">
-          <li><a href="yoga.html">Yoga</a></li>
+          <li><a href="news.html">News</a></li><li><a href="yoga.html">Yoga</a></li>
           <li><a href="cooking.html">Cooking</a></li>
           <li><a href="corporate.html">Corporate</a></li>
           <li><a href="catering.html">Catering</a></li>
@@ -26,14 +26,14 @@
         </ul>
       </nav>
       <a class="lang-switch" href="../contact.html">JP</a>
-      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu">
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navMenu" hidden="hidden">
         <span></span><span></span><span></span>
       </button>
     </div>
   </div>
 </header>
 
-<section style="padding-top: 76px;">
+<main id="main-content" tabindex="-1"><section style="padding-top: 76px;">
   <div class="wrap section-inner">
     <span class="eyebrow-v">Contact</span>
     <div class="section-body">
@@ -44,31 +44,30 @@
       </div>
 
       <div class="form-lead reveal in">
-        <p class="lead-text">We'd love to hear from you.</p>
+        <h1>Contact</h1><p class="lead-text">We'd love to hear from you.</p>
         <p>Questions about our yoga classes, cooking classes, or corporate programmes? Drop us a line below and we'll get back to you as soon as we can.</p>
-      </div>
+      <p>We will reply after reviewing your message. If you have not heard back, check your spam folder or contact us on Instagram.</p></div>
 
       <form class="contact-form reveal in" method="POST" action="https://formspree.io/f/xaewrawp">
-        <input type="hidden" name="_subject" value="[Sora Tobu Studio] New inquiry (English)">
-        <input type="hidden" name="_next" value="thank-you.html">
+        <input type="hidden" name="subject" value="[Sora Tobu Studio] New inquiry (English)">
         <p class="hp-field" aria-hidden="true">
           <label>Please leave this field blank<input name="_gotcha" tabindex="-1" autocomplete="off"></label>
         </p>
 
         <div class="form-row">
           <label for="name">Name<span class="required">Required</span></label>
-          <input type="text" id="name" name="Name" required autocomplete="name">
+          <input type="text" id="name" name="name" required autocomplete="name">
         </div>
 
         <div class="form-row">
           <label for="email">Email Address<span class="required">Required</span></label>
-          <input type="email" id="email" name="Email" required autocomplete="email">
+          <input type="email" id="email" name="email" required autocomplete="email">
         </div>
 
         <div class="form-row">
           <label for="phone">Phone Number<span class="optional">Optional</span></label>
-          <input type="tel" id="phone" name="Phone" autocomplete="tel">
-        </div>
+          <input type="tel" id="phone" name="Phone" autocomplete="tel" aria-describedby="phone-note">
+        <p class="hint" id="phone-note">Please enter a number if you prefer phone contact.</p></div>
 
         <div class="form-row">
           <label for="category">Inquiry Type<span class="required">Required</span></label>
@@ -78,34 +77,29 @@
             <option value="Cooking Class">Cooking classes</option>
             <option value="Corporate Program">Corporate programmes</option>
             <option value="Other">Something else</option>
-          </select>
+          <option value="Catering">Catering</option></select>
         </div>
 
-        <div class="form-row">
-          <span style="display:block; font-size:13px; letter-spacing:0.08em; color:var(--ink); margin-bottom:10px;">Preferred Contact Method<span class="optional">Optional</span></span>
-          <div class="radio-group">
+        <div class="form-row"><label for="event">Event name / preferred date / number of people (optional)</label><input type="text" id="event" name="event" maxlength="160"></div><fieldset class="form-row contact-method"><legend>Preferred contact method</legend><div class="radio-group">
             <label><input type="radio" name="Preferred Contact Method" value="Email" checked>Email</label>
             <label><input type="radio" name="Preferred Contact Method" value="Phone">Phone</label>
             <label><input type="radio" name="Preferred Contact Method" value="Either">Either is fine</label>
           </div>
-        </div>
-
-        <div class="form-row">
+        </fieldset><div class="form-row">
           <label for="message">Message<span class="required">Required</span></label>
           <textarea id="message" name="Message" required placeholder="Tell us what you'd like to know"></textarea>
         </div>
 
         <div class="form-submit">
           <button type="submit" class="btn">Send</button>
-          <p class="form-note">We'll only use what you send here to reply to you.</p>
-        </div>
-      </form>
+          <p id="form-status" role="status" aria-live="polite" tabindex="-1"></p><p class="form-note">Your information is used to respond to your inquiry. Submissions are processed through Formspree. <a href="privacy.html">Privacy information</a></p></div>
+      <noscript><p>With JavaScript disabled, submission opens Formspree’s confirmation page.</p></noscript></form>
 
     </div>
   </div>
 </section>
 
-<footer>
+</main><footer>
   <div class="wrap">
     <div class="footer-grid">
       <div>
@@ -120,7 +114,7 @@
           <li><a href="corporate.html">Corporate</a></li>
           <li><a href="catering.html">Catering</a></li>
           <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <li><a href="news.html">News</a></li><li><a href="privacy.html">Privacy</a></li></ul>
       </div>
       <div class="footer-col">
         <h4>INFORMATION</h4>
@@ -130,32 +124,11 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>&copy; 2026 Sora Tobu Studio. All rights reserved.</span>
-      <a class="social-link" href="https://www.instagram.com/bong_tong11/?hl=ja" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.2" cy="6.8" r="0.6" fill="currentColor" stroke="none"></circle></svg></a>
+      <span>© 2026 Sora Tobu Studio. All rights reserved.</span>
+      <a class="social-link" href="https://www.instagram.com/bong_tong11/?hl=ja" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.2" cy="6.8" r="0.6" fill="currentColor" stroke="none"></circle></svg></a>
     </div>
   </div>
 </footer>
 
-<script>
-  const navToggle = document.getElementById('navToggle');
-  const navMenu = document.getElementById('navMenu');
-  if (navToggle && navMenu) {
-    navToggle.addEventListener('click', () => {
-      const isOpen = navMenu.classList.toggle('open');
-      navToggle.classList.toggle('active', isOpen);
-      navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
-      navToggle.setAttribute('aria-label', isOpen ? 'Close menu' : 'Open menu');
-    });
-    navMenu.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        navMenu.classList.remove('open');
-        navToggle.classList.remove('active');
-        navToggle.setAttribute('aria-expanded', 'false');
-        navToggle.setAttribute('aria-label', 'Open menu');
-      });
-    });
-  }
-</script>
-
-</body>
+<script src="../site.js" defer></script></body>
 </html>

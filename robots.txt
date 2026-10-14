@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://soratobustudio.github.io/home/sitemap.xml
