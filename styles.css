@@ -1170,3 +1170,12 @@ nav ul { gap: 22px; }
   .news-meta .row { gap: 12px; }
   html[lang="en"] .news-meta dt { flex-basis: 90px; }
 }
+
+/* Automatic event archive */
+.news-archive { margin-top: 48px; border-top: 1px solid var(--line); padding-top: 24px; }
+.news-archive summary { cursor: pointer; font-size: 20px; padding: 12px 0; }
+.news-archive > p, .news-empty { margin: 20px 0; }
+.archive-link { margin: 20px 0; }
+.archive-link a { text-decoration: underline; text-underline-offset: 4px; }
+.event-ended { display: inline-block; border: 1px solid currentColor; padding: 4px 12px; margin-bottom: 12px; font-weight: 700; }
+[hidden] { display: none !important; }
